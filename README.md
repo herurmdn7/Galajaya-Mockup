@@ -11,7 +11,7 @@ Bagian paling atas dari *Executive Command Center* yang merangkum kesehatan bisn
 
 ### A. Pipeline Forecast
 
-![Insert Screenshot Pipeline Forecast Card](Pipeline%20Forecast.png)
+![Insert Screenshot Pipeline Forecast Card](Images/Pipeline%20Forecast.png)
 
 * **Fungsi:** Menampilkan total potensi kas masuk (*unbilled / ongoing pipeline*) dari penawaran yang statusnya masih **Belum**, **Berlangsung**, atau **6 bulan lagi**.
 * **Cara Membaca:** Memberikan gambaran langsung mengenai estimasi dana yang akan masuk ke perusahaan dalam waktu dekat hingga menengah.
