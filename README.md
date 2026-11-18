@@ -94,23 +94,23 @@ Bagian ini membedah performa penjualan, margin layanan, profil klien, dan potens
 
 ---
 
-## 3. Predictive Maintenance & Hour Meter Analytics
+## 3. Predictive Maintenance & Hour Meter Analytics ![Planned](https://shields.io)
 
 Bagian ini menarik log harian dari sheet **Hour Meter** untuk mendeteksi beban kerja mesin dan mencegah keterlambatan servis.
 
-### A. Full Standby Month (Interactive Card)
+### A. Full Standby Month (Interactive Card) 
 
 ![Insert Screenshot Full Standby Card](Images/Full%20Standby%20Months.png)
 
 * **Fungsi:** Menghitung jumlah unit genset yang statusnya tercatat `STBY` penuh sepanjang bulan tanpa satu hari pun beroperasi.
 * **Cara Membaca:** Kartu ini dapat diklik untuk membuka daftar detail unit beserta lokasinya. Unit yang terlalu lama *standby* di lokasi proyek perlu dievaluasi apakah kontraknya masih berjalan atau unit perlu ditarik kembali ke gudang.
 
-### B. Overall Fleet Health Gauge
+### B. Overall Fleet Health Gauge ![Planned](https://shields.io)
 
 ![Insert Screenshot Fleet Health Gauge](Images/OVeral%20Fleet%20Operational%20Health.png)
 
 * **Fungsi:** Visualisasi *speedometer* yang merangkum tingkat utilitas operasional seluruh genset yang tercatat di log Hour Meter.
-* **Cara Membaca:** Warna merah menandakan utilitas di bawah 50% (banyak unit menganggur), sedangkan hijau menandakan armada bekerja optimal di atas 50%.
+* **Cara Membaca:** Warna biru menandakan utilitas di bawah 50% (banyak unit menganggur), sedangkan hijau menandakan armada bekerja optimal di atas 50%.
 
 ### C. Average Usage / Day (Top 5 & Least 5 Toggle)
 
