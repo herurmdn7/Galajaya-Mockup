@@ -1,7 +1,7 @@
 # Galajaya Mockup Dashboard Guideline
 
 > **Disclaimer & Data Privacy Notice:**  
-> Dashboard dan dokumentasi ini dibuat *not fully AI*. si AI di sini hanya membantu *filling the missing pieces* dalam penyusunan struktur kode frontend, visualisasi grafik, dan logika kalkulasi backend. **Data asli perusahaan di dalam Google Spreadsheet tidak pernah dibaca atau disimpan oleh AI.** AI hanya membaca struktur kolom dan contoh format *prompt* dari pengguna sehingga kerahasiaan data operasional maupun komersial tetap aman 100%. Saya Jamin wok
+> Berikut hasil analisa gembel cepat yang menjadi Dashboard dan dokumentasi. File ini dibuat *not fully AI* karena token saya ga sebanyak enterprise. si AI di sini hanya membantu *filling the missing pieces* dalam penyusunan struktur kode frontend, visualisasi grafik,*Phrasing readme ini*, dan logika kalkulasi backend. **Data asli perusahaan di dalam Google Spreadsheet tidak pernah dibaca atau disimpan oleh AI.** AI hanya membaca struktur kolom dan contoh format *prompt* dari saya sehingga kerahasiaan data operasional maupun komersial tetap aman. Saya Jamin wok sebagai creator 
 
 ---
 
@@ -57,7 +57,7 @@ Bagian ini membedah performa penjualan, margin layanan, profil klien, dan potens
 * **Fungsi:** Grafik area yang melacak pergerakan total nilai deal dari bulan ke bulan, dilengkapi penanda otomatis (**Peak Revenue**) pada bulan dengan pencapaian tertinggi.
 * **Cara Membaca:** Memudahkan identifikasi tren kenaikan atau penurunan omzet secara historis tanpa harus mengecek tabel satu per satu.
 
-### C. Asset Yield (Revenue per kVA)
+### C. Asset Yield (Revenue per kVA) <kbd>🟢 Planned</kbd>
 
 ![Insert Screenshot Asset Yield Chart](Images/Asset%20Yield.png)
 
@@ -94,7 +94,7 @@ Bagian ini membedah performa penjualan, margin layanan, profil klien, dan potens
 
 ---
 
-## 3. Predictive Maintenance & Hour Meter Analytics ![Planned](https://shields.io)
+## 3. Predictive Maintenance & Hour Meter Analytics <kbd>🟢 Planned</kbd>
 
 Bagian ini menarik log harian dari sheet **Hour Meter** untuk mendeteksi beban kerja mesin dan mencegah keterlambatan servis.
 
@@ -105,7 +105,7 @@ Bagian ini menarik log harian dari sheet **Hour Meter** untuk mendeteksi beban k
 * **Fungsi:** Menghitung jumlah unit genset yang statusnya tercatat `STBY` penuh sepanjang bulan tanpa satu hari pun beroperasi.
 * **Cara Membaca:** Kartu ini dapat diklik untuk membuka daftar detail unit beserta lokasinya. Unit yang terlalu lama *standby* di lokasi proyek perlu dievaluasi apakah kontraknya masih berjalan atau unit perlu ditarik kembali ke gudang.
 
-### B. Overall Fleet Health Gauge ![Planned](https://shields.io)
+### B. Overall Fleet Health Gauge <kbd>🟢 Planned</kbd>
 
 ![Insert Screenshot Fleet Health Gauge](Images/OVeral%20Fleet%20Operational%20Health.png)
 
@@ -160,7 +160,7 @@ Bagian ini memetakan master aset dari sheet **Daftar Genset** berdasarkan kepemi
 * **Fungsi:** Menampilkan 5 lokasi atau *site* dengan konsentrasi penempatan genset terbanyak.
 * **Cara Membaca:** Membantu tim logistik memetakan area kerja terpadat dan memantau berapa banyak unit yang sedang menumpuk di *Gudang Platinum* maupun *Kantor*.
 
-### D. Indonesia Archipelago Choropleth Map
+### D. Indonesia Archipelago Choropleth Map <kbd>🟢 Planned</kbd>
 
 ![Insert Screenshot Indonesia Archipelago Map](Images/Geo.png)
 
@@ -169,7 +169,7 @@ Bagian ini memetakan master aset dari sheet **Daftar Genset** berdasarkan kepemi
 
 ---
 
-## 5. Future Roadmap & Database Restructuring Plan
+## 5. Future Roadmap & Database Restructuring Plan <kbd>🟢 Planned</kbd>
 
 Agar potensi analitik dashboard ini bisa berkembang jauh lebih dalam di versi berikutnya (*Version 3*), struktur pencatatan di Google Spreadsheet disarankan untuk dirombak secara bertahap dengan poin-poin berikut:
 
